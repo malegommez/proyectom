@@ -1,0 +1,61 @@
+h1{
+    color:#ecb6d6;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+
+body{
+    background-color: #FFFF;
+}
+
+.grid-layout{
+    display:grid;
+    grid-template-columns: repeat(8, 0.5fr);
+    height:auto;
+    background-color: #ecb6d6;
+}
+
+
+.navbar{
+    display:grid;
+    grid-column: 1/9; 
+    background-color:#FFFF;
+    height: 8vh;
+    margin-top:1vh;
+    margin-bottom:5vh;
+    margin-left:1vh;
+    margin-right:1vh;
+}
+
+.sale{
+    display:grid;
+    background-color: red;
+    grid-column: 2/8;
+    height: 70vh;
+    margin-top:1vh;
+    margin-bottom:5vh;
+    margin-left:1vh;
+    margin-right:1vh;
+}
+
+.carrousel{
+    display:grid;
+    background-color: pink;
+    grid-column: 2/8;
+    height: 70vh;
+    margin-top:1vh;
+    margin-bottom:5vh;
+    margin-left:1vh;
+    margin-right:1vh;
+}
+
+.newsletter{
+    display:grid;
+    background-color: pink;
+    grid-column: 3/7;
+    height: 20vh;
+    margin-top:1vh;
+    margin-bottom:5vh;
+    margin-left:1vh;
+    margin-right:1vh;
+}
